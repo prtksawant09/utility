@@ -5,5 +5,5 @@ import edu.pratik.searching.exception.ItemNotFoundException;
 import java.util.Scanner;
 
 public interface SearchInterface {
-    public Integer search(Integer[] searchArray, Integer n) throws ItemNotFoundException;
+    public int search(int[] searchArray, int n) throws ItemNotFoundException;
 }

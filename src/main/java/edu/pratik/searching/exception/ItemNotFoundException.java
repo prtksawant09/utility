@@ -2,9 +2,9 @@ package edu.pratik.searching.exception;
 
 public class ItemNotFoundException extends Exception {
     String customMessage;
-    public ItemNotFoundException(String s) {
-        super(s);
-        setCustomMessage(s);
+    public ItemNotFoundException(int n) {
+        super("Element "+n+" not found in array");
+        setCustomMessage("Element "+n+" not found in array");
     }
 
     public String getCustomMessage() {
